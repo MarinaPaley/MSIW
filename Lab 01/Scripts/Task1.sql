@@ -1,3 +1,3 @@
 --Показать все поля из таблицы Production.Product
-SELECT *
-FROM Production.Product;
+SELECT p.*
+FROM Production.Product AS p;
